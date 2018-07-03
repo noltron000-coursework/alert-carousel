@@ -1,3 +1,4 @@
 $(".cats").slick({
-	dots: true
+    autoplay: true,
+    dots: true,
 });
