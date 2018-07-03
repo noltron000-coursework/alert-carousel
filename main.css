@@ -1,13 +1,32 @@
 .container {
-   margin: 0 auto;
-   padding: 40px;
-   width: 80%;
-   color: #333;
-   background: #419be0;
+    max-height: 500px;
+    padding: 40px;
+    width: 80%;
+    color: #333;
+    background: #e9cc33;
 }
-  
-.cats {
-  text-align: center;
-  color: #419be0;
-  background: white;
+
+.card {
+}
+
+
+.slick-slide {
+    text-align: center;
+    color: #419be0;
+    background: #e9cc33;
+}
+
+.slick-slide img {
+    background: white;
+    border: 10px solid #e9cc33;
+    padding: 5px;
+    /* ^^^ This is a little bit backwards...so pay attention.
+    Adjust the 'background' & 'padding' to change the outline of the images.
+    Adjust the 'border' to change the between-space of two images. */
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
 }

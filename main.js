@@ -1,4 +1,4 @@
-$(".cats").slick({
-    autoplay: true,
-    dots: true,
+$(".single-item").slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
 });
