@@ -1,8 +1,11 @@
 .container {
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     width: 80%;
     color: #333;
     background: #e9cc33;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .slick-slide {
@@ -23,6 +26,5 @@
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;
-    max-height: 50%;
+    width: 100%;
 }
