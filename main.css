@@ -33,10 +33,10 @@
     Without it, the right side would have no padding.*/
 
     object-fit: contain;
-    /* ^^^ set to fit the image proportionally, 
-    using the sizes given as "maximums" */
     height: calc(100px + 15vmin);
     width: 100%;
+    /* ^^^ set to fit the image proportionally, 
+    using the sizes given as "constraints" */
 }
 
 .expander {
