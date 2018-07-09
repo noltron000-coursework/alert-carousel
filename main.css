@@ -12,20 +12,30 @@
     text-align: center;
     color: #419be0;
     background: #e9cc33;
-    height: auto;
 }
 
 .slick-slide img {
-    background: white;
-    border: 10px solid #e9cc33;
     padding: 5px;
+    background: #ffffff;
+    border: 10px solid #e9cc33;
     /* ^^^ This is a little bit backwards...so pay attention.
     Adjust the 'background' & 'padding' to change the outline of the images.
-    Adjust the 'border' to change the between-space of two images. */
-    display: block;
-    box-sizing: border-box;
+    Adjust the 'border' to change the between-space of two images. 
+    The reasoning is that the border is the same color as the background (yellow)
+    And the padding is the same color as the image (white)*/
+
     margin-left: auto;
     margin-right: auto;
+    /* ^^^ margins set to auto means that the image is centered in the div. */
+
+    box-sizing: border-box;
+    /* ^^^ box-sizing keeps both the left and right sides padded. 
+    Without it, the right side would have no padding.*/
+
+    object-fit: contain;
+    /* ^^^ set to fit the image proportionally, 
+    using the sizes given as "maximums" */
+    height: calc(100px + 15vmin);
     width: 100%;
 }
 
