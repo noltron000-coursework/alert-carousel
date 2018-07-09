@@ -1,7 +1,7 @@
 $(".single-item").slick({
     rows: 1,
     speed: 300,
-
+    lazyLoad: 'ondemand',
     slidesToShow: 6,
     slidesToScroll: 6,
     infinite: true,
