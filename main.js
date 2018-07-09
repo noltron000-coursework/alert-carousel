@@ -5,43 +5,35 @@ $(".single-item").slick({
     slidesToShow: 6,
     slidesToScroll: 6,
     infinite: true,
-    dots: true,
+    dots: false,
     responsive: [{
     },
     {
         breakpoint: 2160,
         settings: {
             slidesToShow: 4,
-            slidesToScroll: 4,
-            infinite: true,
-            dots: true
+            slidesToScroll: 4
         }
     },
     {
         breakpoint: 1920,
         settings: {
             slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
+            slidesToScroll: 3
         }
     },
     {
         breakpoint: 1600,
         settings: {
             slidesToShow: 2,
-            slidesToScroll: 2,
-            infinite: true,
-            dots: false
+            slidesToScroll: 2
         }
     },
     {
         breakpoint: 1080,
         settings: {
             slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false
+            slidesToScroll: 1
         }
     }
       // You can unslick at a given breakpoint now by adding:
