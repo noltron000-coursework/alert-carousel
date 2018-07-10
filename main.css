@@ -41,6 +41,11 @@
     using the sizes given as "constraints" */
 }
 
+.center-div {
+    margin: auto;
+    width: fit-content;
+}
+
 .expander {
     height: 40px
 }

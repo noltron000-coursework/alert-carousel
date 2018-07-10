@@ -1,17 +1,15 @@
 @charset "UTF-8";
 
 .header-button {
-	margin-left: auto;
-	margin-right: auto;
 	background-color:#3bb3e0;
 	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', 'sans-serif';
-	font-size:20px;
-	font-weight:700;
+	font-size: 20px;
+	font-weight: 700;
 	text-decoration:none;
 	color:#fff;
-	position:relative;
-	padding:10px 20px;
-	padding-right:50px;
+	position: relative;
+	padding: 10px 20px;
+	padding-right: 50px;
 	background-image: linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
 	background-image: -o-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
 	background-image: -moz-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
@@ -41,7 +39,7 @@
 }
 
 .header-button:active {
-	top:3px;
+	top: 3px;
 	background-image: linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
 	background-image: -o-linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
 	background-image: -moz-linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
@@ -74,11 +72,11 @@
     background-position: center; 
 	background-repeat: no-repeat;
 	background-color:#2591b4;
-	width:20px;
-	height:20px;
-	position:absolute;
-	right:15px;
-	top:50%;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 15px;
+	top: 50%;
 	margin-top:-9px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -91,8 +89,8 @@
 }
 
 .header-button:active::before {
-	top:50%;
-	margin-top:-12px;
+	top: 50%;
+	margin-top: -12px;
 	-webkit-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
 	-moz-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
 	-o-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
