@@ -23,14 +23,14 @@ $(".single-item").slick({
         }
     },
     {
-        breakpoint: 1200,
+        breakpoint: 1500,
         settings: {
             slidesToShow: 2,
             slidesToScroll: 2
         }
     },
     {
-        breakpoint: 900,
+        breakpoint: 1200,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1
