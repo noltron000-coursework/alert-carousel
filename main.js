@@ -9,14 +9,14 @@ $(".single-item").slick({
     responsive: [{
     },
     {
-        breakpoint: 2000,
+        breakpoint: 2100,
         settings: {
             slidesToShow: 4,
             slidesToScroll: 4
         }
     },
     {
-        breakpoint: 1600,
+        breakpoint: 1800,
         settings: {
             slidesToShow: 3,
             slidesToScroll: 3
@@ -30,7 +30,7 @@ $(".single-item").slick({
         }
     },
     {
-        breakpoint: 800,
+        breakpoint: 900,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1
