@@ -36,11 +36,16 @@
 
     object-fit: contain;
     height: calc(480px + 12vh - 18vw);
-    min-height: 15vmin;
+    min-height: calc(15vmin + 100px);
     max-height: 65vmin;
     width: 100%;
     /* ^^^ set to fit the image proportionally, 
-    using the sizes given as "constraints" */
+    using the sizes given as "constraints".
+    =====
+    In effort of making the header a "banner" on large screens,
+    and trying to make it "full" on small screens, some trickery
+    using vh, vw, and vmin was used. These should make them fit
+    properly on most screen sizes. */
 }
 
 .center-div {
