@@ -35,7 +35,7 @@
     Without it, the right side would have no padding.*/
 
     object-fit: contain;
-    height: calc(50px + 35vmin);
+    height: calc(50px + 25vmin + 5vmax);
     width: 100%;
     /* ^^^ set to fit the image proportionally, 
     using the sizes given as "constraints" */
