@@ -36,6 +36,8 @@
 
     object-fit: contain;
     height: calc(480px + 12vh - 18vw);
+    min-height: 15vmin;
+    max-height: 65vmin;
     width: 100%;
     /* ^^^ set to fit the image proportionally, 
     using the sizes given as "constraints" */
