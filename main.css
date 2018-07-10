@@ -83,25 +83,25 @@ span {
 
 
 
-/*below is experimental area...BEWARE!
-.slick-arrow {
-    position: absolute;
-    top: 35%;
-    background: transparent;
-    height: 80px;
-    color: transparent;
-}
-
-.slick-next {
-    right: 0;
-}
-
-.slick-next:before,
-.slick-prev:before {
-    padding: 0 10px;
-    position: absolute;
-    font-size: 50px;
-    top: 0%;
-    left: 20%;
-}
-*/
+/** below is experimental area...BEWARE!
+ *  .slick-arrow {
+ *      position: absolute;
+ *      top: 35%;
+ *      background: transparent;
+ *      height: 80px;
+ *      color: transparent;
+ *  }
+ *  
+ *  .slick-next {
+ *      right: 0;
+ *  }
+ *  
+ *  .slick-next:before,
+ *  .slick-prev:before {
+ *      padding: 0 10px;
+ *      position: absolute;
+ *      font-size: 50px;
+ *      top: 0%;
+ *      left: 20%;
+ *  }
+ **/
