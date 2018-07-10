@@ -1,14 +1,4 @@
 @charset "UTF-8";
-/* CSS Document */
-
-/*
-DEMO 4
-*/
-
-#container-buttons {
-    margin: auto;
-    width: 250px;
-}
 
 .header-button {
 	background-color:#3bb3e0;
@@ -75,11 +65,13 @@ DEMO 4
 }
 
 .header-button::before {
+	content: "";
+	background-image: url(arrow-right-solid.svg);
+	/*uses font-awesome. Awesome! Here's their license: https://fontawesome.com/license */
+	background-size: 14px auto;
+    background-position: center; 
+	background-repeat: no-repeat;
 	background-color:#2591b4;
-	background-image:url(images/right_arrow.png);
-	background-repeat:no-repeat;
-	background-position:center center;
-	content:"";
 	width:20px;
 	height:20px;
 	position:absolute;

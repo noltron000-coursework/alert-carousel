@@ -9,28 +9,28 @@ $(".single-item").slick({
     responsive: [{
     },
     {
-        breakpoint: 2160,
+        breakpoint: 2000,
         settings: {
             slidesToShow: 4,
             slidesToScroll: 4
         }
     },
     {
-        breakpoint: 1920,
+        breakpoint: 1600,
         settings: {
             slidesToShow: 3,
             slidesToScroll: 3
         }
     },
     {
-        breakpoint: 1600,
+        breakpoint: 1200,
         settings: {
             slidesToShow: 2,
             slidesToScroll: 2
         }
     },
     {
-        breakpoint: 1080,
+        breakpoint: 800,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1
