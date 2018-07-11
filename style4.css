@@ -96,3 +96,35 @@
 	-o-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
 	box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
 }
+
+.slick-next  {
+	left: calc(100% - 64px);
+	right: 0px;
+	z-index: 1;
+	width: 20%;
+	top: calc(50% - 32px);
+}
+
+.slick-prev  {
+	left: calc(-100% - 64px);
+	right: 0px;
+	z-index: 1;
+	width: 20%;
+	top: calc(50% - 32px);
+}
+
+.slick-next:before,
+.slick-prev:before {
+    position: absolute;
+    font-size: 64px;
+	left: 20%;
+	color: darkblue;
+}
+
+.slick-arrow {
+	width: 0px;
+	height: 0px;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+}

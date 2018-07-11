@@ -17,14 +17,18 @@
 }
 
 .slick-slide img {
-    padding: 5px;
-    background: #ffffff;
+    padding: 0px;
+    background: white;
     border: 10px solid #e9cc33;
     /* ^^^ This is a little bit backwards...so pay attention.
     Adjust the 'background' & 'padding' to change the outline of the images.
-    Adjust the 'border' to change the between-space of two images. 
+    Adjust the 'border' to change the between-space of two images.
+    ***
     The reasoning is that the border is the same color as the background (yellow)
-    And the padding is the same color as the image (white)*/
+    And the padding is the same color as the image (white)
+    If you want to better understand what I mean, change the two colors here.
+    ***
+    Some of this changed since I am now using 'width: fit-content.' */
 
     margin-left: auto;
     margin-right: auto;
@@ -41,7 +45,7 @@
     width: 100%;
     /* ^^^ set to fit the image proportionally, 
     using the sizes given as "constraints".
-    =====
+    ***
     In effort of making the header a "banner" on large screens,
     and trying to make it "full" on small screens, some trickery
     using vh, vw, and vmin was used. These should make them fit
