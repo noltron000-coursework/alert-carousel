@@ -225,3 +225,12 @@ span {
 	vertical-align: middle;
 	margin: auto;
 }
+
+/* Important note:
+I did -not- take internet explorer 11 into consideration.
+This carousel works on firefox, chrome, and even edge.
+- Data shows that about 3.5% of users use ie11 still.
+- Microsoft has ended support of ie11 on December 2016.
+- There are ways to implement some work-arounds, 
+although I simply did not consider them based on this data.
+*/
