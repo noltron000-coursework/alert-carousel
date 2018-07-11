@@ -87,25 +87,141 @@ span {
 
 
 
-/** below is experimental area...BEWARE!
- *  .slick-arrow {
- *      position: absolute;
- *      top: 35%;
- *      background: transparent;
- *      height: 80px;
- *      color: transparent;
- *  }
- *  
- *  .slick-next {
- *      right: 0;
- *  }
- *  
- *  .slick-next:before,
- *  .slick-prev:before {
- *      padding: 0 10px;
- *      position: absolute;
- *      font-size: 50px;
- *      top: 0%;
- *      left: 20%;
- *  }
- **/
+
+
+
+
+
+
+
+
+
+
+.header-button {
+	background-color:#3bb3e0;
+	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', 'sans-serif';
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration:none;
+	color:#fff;
+	position: relative;
+	padding: 10px 20px;
+	padding-right: 50px;
+	background-image: linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
+	background-image: -o-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
+	background-image: -moz-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
+	background-image: -webkit-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
+	background-image: -ms-linear-gradient(bottom, #2ca0ca 0%, #3eb8e5 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(
+			0, 
+			#2ca0ca
+		),
+		color-stop(
+			1, 
+			#3eb8e5
+		)
+	);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+}
+
+.header-button:active {
+	top: 3px;
+	background-image: linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
+	background-image: -o-linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
+	background-image: -moz-linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
+	background-image: -webkit-linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
+	background-image: -ms-linear-gradient(bottom, #3eb8e5 0%, #2ca0ca 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(
+			0,
+			#3eb8e5
+		),
+		color-stop(
+			1,
+			#2ca0ca
+		)
+	);
+	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+
+.header-button::before {
+	content: "";
+	background-image: url(arrow-right-solid.svg);
+	/*uses font-awesome. Awesome! Here's their license: https://fontawesome.com/license */
+	background-size: 14px auto;
+    background-position: center; 
+	background-repeat: no-repeat;
+	background-color:#2591b4;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	margin-top:-9px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+	-moz-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+	-o-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+	box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+}
+
+.header-button:active::before {
+	top: 50%;
+	margin-top: -12px;
+	-webkit-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
+	-moz-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
+	-o-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
+	box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
+}
+
+.slick-next  {
+	left: calc(100% - 64px);
+	right: 0px;
+	z-index: 1;
+	width: 20%;
+	top: calc(50% - 32px);
+}
+
+.slick-prev  {
+	left: calc(-100% - 64px);
+	right: 0px;
+	z-index: 1;
+	width: 20%;
+	top: calc(50% - 32px);
+}
+
+.slick-next:before,
+.slick-prev:before {
+    position: absolute;
+    font-size: 64px;
+	left: 20%;
+	color: #1a80a6;
+}
+
+.slick-arrow {
+	width: 0px;
+	height: 0px;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+}
