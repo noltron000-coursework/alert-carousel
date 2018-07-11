@@ -199,7 +199,7 @@ span {
 	right: 0px;
 	z-index: 1;
 	width: 20%;
-	top: calc(50% - 64px);
+	top: calc(50% - 57px);
 }
 
 .slick-prev  {
@@ -207,7 +207,7 @@ span {
 	right: 0px;
 	z-index: 1;
 	width: 20%;
-	top: calc(50% - 64px);
+	top: calc(50% - 57px);
 }
 
 .slick-next:before,
