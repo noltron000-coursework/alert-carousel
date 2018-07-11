@@ -195,25 +195,25 @@ span {
 }
 
 .slick-next  {
-	left: calc(100% - 64px);
+	left: calc(100% - 128px);
 	right: 0px;
 	z-index: 1;
 	width: 20%;
-	top: calc(50% - 32px);
+	top: calc(50% - 64px);
 }
 
 .slick-prev  {
-	left: calc(-100% - 64px);
+	left: calc(-100% - 128px);
 	right: 0px;
 	z-index: 1;
 	width: 20%;
-	top: calc(50% - 32px);
+	top: calc(50% - 64px);
 }
 
 .slick-next:before,
 .slick-prev:before {
     position: absolute;
-    font-size: 64px;
+    font-size: 128px;
 	left: 20%;
 	color: #1a80a6;
 }
