@@ -6,9 +6,10 @@
     width: 80%;
     color: #333;
     background: #e9cc33;
-	background-image: url("jpg/blue-15506_960_720.jpg");
+	background-image: linear-gradient(to top, #e9cc33 0%, transparent 25%, transparent 75%, #e9cc33 100%), url("jpg/yellow-15506_960_720.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
     margin-left: auto;
 	margin-right: auto;
 }
