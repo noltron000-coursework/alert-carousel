@@ -6,20 +6,20 @@
     width: 80%;
     color: #333;
     background: #e9cc33;
+	background-image: url("jpg/blue-15506_960_720.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 }
 
 .slick-slide {
     text-align: center;
     color: #419be0;
-    background: #e9cc33;
 }
 
 .slick-slide img {
     padding: 0px;
-    background: #e9cc33;
-    border: 10px solid #e9cc33;
     /* ^^^ This is a little bit backwards...so pay attention.
     Adjust the 'background' & 'padding' to change the outline of the images.
     Adjust the 'border' to change the between-space of two images.
