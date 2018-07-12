@@ -185,32 +185,34 @@ span {
 	left: calc(100% - 128px);
 	right: 0px;
 	z-index: 1;
-	width: 20%;
-	top: calc(50% - 57px);
+	/* top: calc(50% - 57px); 
+	 * dont need this. Just need to center the font into the red square. */
 }
 
 .slick-prev  {
 	left: calc(-100% - 128px);
 	right: 0px;
 	z-index: 1;
-	width: 20%;
-	top: calc(50% - 57px);
+	/* top: calc(50% - 57px); 
+	 * dont need this. Just need to center the font into the red square. */
 }
 
 .slick-next:before,
 .slick-prev:before {
-    position: absolute;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
     font-size: 128px;
 	left: 20%;
 	color: #1a80a6;
 }
 
 .slick-arrow {
-	width: 0px;
-	height: 0px;
-	text-align: center;
-	vertical-align: middle;
+	/* Somehow, I want to center this red box with the arrow. */
 	margin: auto;
+	width: 128px;
+	height: 128px;
+	background-color:red;
 }
 
 /* Important note:
