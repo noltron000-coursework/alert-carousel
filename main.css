@@ -181,41 +181,33 @@ span {
 	box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
 }
 
-.slick-next  {
-	left: calc(100% - 128px);
-	right: 0px;
-	z-index: 1;
-	width: 20%;
-	top: calc(50% - 57px);
-}
-
+.slick-next,
 .slick-prev  {
-	left: calc(-100% - 128px);
-	right: 0px;
 	z-index: 1;
-	width: 20%;
-	top: calc(50% - 57px);
 }
 
 .slick-next:before,
 .slick-prev:before {
-    position: absolute;
+	position: relative;
+	text-align: center;
+	margin-left: -44px;
     font-size: 128px;
 	left: 20%;
 	color: #1a80a6;
+	text-shadow: 0px 1px 0px #2ab7ec, 0px 5px 0px #156785, 0px 10px 5px #999;
 }
 
+
 .slick-arrow {
-	width: 0px;
-	height: 0px;
-	text-align: center;
-	vertical-align: middle;
+	/* Somehow, I want to center this red box with the arrow. */
 	margin: auto;
+	width: 109px;
+	height: 109px;
 }
 
 /* Important note:
 I did -not- take internet explorer 11 into consideration.
-This carousel works on firefox, chrome, and even edge.
+This carousel works on firefox, chrome, edge, opera, iOS, safari, etc.
 - Data shows that about 3.5% of users use ie11 still.
 - Microsoft has ended support of ie11 on December 2016.
 - There are ways to implement some work-arounds, 
