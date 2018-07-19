@@ -217,7 +217,7 @@ span {
 
 /* Important note:
 I did -not- take internet explorer 11 into consideration.
-This carousel works on firefox, chrome, and even edge.
+This carousel works on firefox, chrome, edge, opera, iOS, safari, etc.
 - Data shows that about 3.5% of users use ie11 still.
 - Microsoft has ended support of ie11 on December 2016.
 - There are ways to implement some work-arounds, 
