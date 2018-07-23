@@ -72,7 +72,8 @@ h3 {
 }
 
 body {
-    background: #333;
+	background: #333;
+	margin: 0px;
 }
 
 span {
@@ -194,9 +195,30 @@ span {
     font-size: 128px;
 	left: 20%;
 	color: #1a80a6;
-	text-shadow: 0px 1px 0px #2ab7ec, 0px 5px 0px #156785, 0px 10px 5px #999;
+	text-shadow: 
+		0px 0.5px 0px #2ab7ec,
+		0px 1.0px 0px #2ab7ec,
+		0px 1.5px 0px #2ab7ec,
+		0px 2.0px 0px #156785,
+		0px 2.5px 0px #156785,
+		0px 3.0px 0px #156785,
+		0px 3.5px 0px #156785,
+		0px 4.0px 0px #156785,
+		0px 4.5px 0px #156785,
+		0px 5px 0px #156785,
+		0px 10px 5px #999;
 }
 
+.slick-next:active:before,
+.slick-prev:active:before {
+	margin-top: -3px;
+	color: transparent;
+	text-shadow:
+		0px 3px 0px #1a80a6,
+		0px 4px 0px #2ab7ec,
+		0px 5px 0px #156785,
+		0px 8px 3px #999;
+}
 
 .slick-arrow {
 	margin: auto;
