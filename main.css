@@ -1,15 +1,16 @@
 @charset "UTF-8";
 
+.yellowdiv {
+	background-image: linear-gradient(to top, #e9cc33 0%, transparent 25%, transparent 75%, #e9cc33 100%), url("jpg/yellow-15506_960_720.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;}
+
 .container {
     padding-left: 40px;
     padding-right: 40px;
     width: 80%;
     color: #333;
-    background: #e9cc33;
-	background-image: linear-gradient(to top, #e9cc33 0%, transparent 25%, transparent 75%, #e9cc33 100%), url("jpg/yellow-15506_960_720.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
     margin-left: auto;
 	margin-right: auto;
 }
@@ -211,12 +212,14 @@ span {
 
 .slick-next:active:before,
 .slick-prev:active:before {
-	margin-top: -3px;
 	color: transparent;
 	text-shadow:
-		0px 3px 0px #1a80a6,
-		0px 4px 0px #2ab7ec,
-		0px 5px 0px #156785,
+		0px 3.0px 0px #1a80a6,
+		0px 3.0px 0px #2ab7ec,
+		0px 3.5px 0px #2ab7ec,
+		0px 4.0px 0px #2ab7ec,
+		0px 4.5px 0px #156785,
+		0px 5.0px 0px #156785,
 		0px 8px 3px #999;
 }
 

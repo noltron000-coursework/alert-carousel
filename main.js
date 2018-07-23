@@ -4,6 +4,8 @@ $(".single-item").slick({
     lazyLoad: 'ondemand',
     slidesToShow: 6,
     slidesToScroll: 6,
+    swipeAngleOffset: 60,
+    touchThreshold: 12,
     infinite: true,
     dots: false,
     responsive: [{
