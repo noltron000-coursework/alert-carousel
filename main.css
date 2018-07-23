@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
 .yellowdiv {
+	background-color: #e9cc33;
 	background-image: linear-gradient(to top, #e9cc33 0%, transparent 25%, transparent 75%, #e9cc33 100%), url("jpg/yellow-15506_960_720.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;}
+	background-position: center;
+}
 
 .container {
     padding-left: 40px;
@@ -82,9 +84,6 @@ span {
     overflow: hidden;
     /* ^^^ keeps the button and other assets in a single line */
 }
-
-
-
 
 .header-button {
 	background-color:#3bb3e0;
