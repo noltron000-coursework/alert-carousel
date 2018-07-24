@@ -151,7 +151,7 @@ span {
 
 .header-button::before {
 	content: "";
-	background-image: url(arrow-right-solid.svg);
+	background-image: url("svg/arrow-right-solid.svg");
 	/*uses font-awesome. Awesome! Here's their license: https://fontawesome.com/license */
 	background-size: 20px auto;
     background-position: center; 
