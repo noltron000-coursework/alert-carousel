@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 .yellowdiv {
-	background-color: #8ed9f8;
-	background-image: linear-gradient(to top, #8ed9f8 0%, transparent 25%, transparent 75%, #8ed9f8 100%), url("jpg/HD-Gradient-WPXH7719.jpg");
+	background-color: #133b5e;
+	background-image: linear-gradient(to top, #133b5e 0%, transparent 25%, transparent 75%, #133b5e 100%), url("jpg/Gradient-Wallpapers.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -117,10 +117,10 @@ span {
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
-	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
-	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
-	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
-	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #333;
+	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #333;
+	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #333;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #333;
 }
 
 .header-button:active {
@@ -143,10 +143,10 @@ span {
 			#2ca0ca
 		)
 	);
-	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
-	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
-	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
-	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #333;
+	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #333;
+	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #333;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #333;
 }
 
 .header-button::before {
@@ -206,7 +206,7 @@ span {
 		0px 4.0px 0px #156785,
 		0px 4.5px 0px #156785,
 		0px 5px 0px #156785,
-		0px 10px 5px #999;
+		0px 10px 5px #333;
 }
 
 .slick-next:active:before,
@@ -219,7 +219,7 @@ span {
 		0px 4.0px 0px #3eb8e5,
 		0px 4.5px 0px #156785,
 		0px 5.0px 0px #156785,
-		0px 8px 3px #999;
+		0px 8px 3px #333;
 }
 
 .slick-arrow {
