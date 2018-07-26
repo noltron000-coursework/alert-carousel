@@ -192,6 +192,9 @@ span {
 	position: relative;
 	text-align: center;
 	margin-left: -44px;
+	/*if you want to move or resize these buttons, 
+	you will have to change the margin-left to make the buttons centered, 
+	or figure out an alternative/automated way to do so.*/
     font-size: 128px;
 	left: 20%;
 	color: #2ca0ca;
@@ -207,6 +210,7 @@ span {
 		0px 4.5px 0px #156785,
 		0px 5px 0px #156785,
 		0px 10px 5px #333;
+		/*this gives a nice illusion of 3D text*/
 }
 
 .slick-next:active:before,
@@ -220,6 +224,7 @@ span {
 		0px 4.5px 0px #156785,
 		0px 5.0px 0px #156785,
 		0px 8px 3px #333;
+		/*this gives a nice illusion of 3D text*/
 }
 
 .slick-arrow {
